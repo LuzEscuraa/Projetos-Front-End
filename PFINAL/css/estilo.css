@@ -1,0 +1,295 @@
+body {
+    font-family: 'Inter', sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* CSS dp Header */
+
+header {
+    height: 183px;
+    width: 960px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    float: left;
+}
+
+header h1 a {
+    display: block;
+    width: 100px;
+    height: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    text-decoration: none;
+    /* identical to box height */
+    color: #737373;
+    padding-top: 15px;
+    padding-left: 65px;
+    background: url(../imagens/h1_logo.png) no-repeat top left;
+    margin-left: 10px;
+}
+
+header h1 a:hover {
+    background-image: url(../imagens/h1_logo_hover.png);
+    color: #00CD6B;
+}
+
+/* CSS dos Menus */
+
+#menu_social {
+    float:right;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+#menu_social ul {
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    /* propriedades unicas */
+    padding: 0;
+    margin: 0;
+}
+
+#menu_social ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#menu_social ul li a {
+    display: block;
+    float: left;
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+    /* Código gambiarra
+    text-indent: -12000px; */
+}
+
+#menu_social .off {
+    display: none;
+}
+
+a#twitter {
+    background: url(../imagens/twitter.png);
+}
+
+a:hover#twitter {
+    background: url(../imagens/twitter_hover.png);
+}
+
+a#facebook {
+    background: url(../imagens/facebook.png);
+}
+
+a:hover#facebook {
+    background: url(../imagens/facebook_hover.png);
+}
+
+a#rss {
+    background: url(../imagens/rss.png);
+}
+
+a:hover#rss {
+    background: url(../imagens/rss_hover.png);
+}
+
+a#google {
+    background: url(../imagens/google.png);
+}
+
+a:hover#google {
+    background: url(../imagens/google_hover.png);
+}
+
+a#pinterest {
+    background: url(../imagens/pinterest.png);
+}
+
+a:hover#pinterest {
+    background: url(../imagens/pinterest_hover.png);
+}
+
+a#dribble {
+    background: url(../imagens/dribbble.png);
+}
+
+a:hover#dribble {
+    background: url(../imagens/dribbble_hover.png);
+}
+
+#menu_principal {
+    clear: both;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: #DADADA solid 1px;
+}
+
+#menu_principal ul{
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    /* propriedades unicas */
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#menu_principal ul li {
+    display: inline;
+}
+
+#menu_principal ul li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #737373;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#menu_principal ul li a:hover {
+    color: #00CD6B;
+}
+
+/* CSS do Banner */
+
+#banner {
+    height: 757px;
+    background: url(../imagens/bg_banner.png) no-repeat top center;
+    width: 960px;
+}
+
+img.banner_imagem {
+    padding-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 472px;
+    width: 830px;
+}
+
+p.text_banner {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #737373;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+a.btn_banner {
+    display: block;
+    width: 180px;
+    height: 31px;
+    padding-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2DCC70;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FEFEFE;
+    text-decoration: none;
+}
+
+a:hover.btn_banner {
+    background-color: #737373;
+}
+
+/* CSS do Conteúdo */
+
+#conteudo {
+    margin-top: 30px;
+}
+
+.chamadas {
+    display: block;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.titulo_chamadas {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #737373;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text_chamadas {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #1E1E1E;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* CSS do Rodapé */
+
+footer {
+    height: 90px;
+    background-color: #EFEFEF;
+    width: 960px;
+    clear: both;
+}
+
+footer h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #747474;
+    padding-top: 35px;
+    margin-left: 25px;
+}
