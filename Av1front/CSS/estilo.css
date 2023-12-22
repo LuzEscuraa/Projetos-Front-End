@@ -1,0 +1,66 @@
+body{
+    color: #030303;
+}
+
+header{
+    height: 107x;
+    width: 683px;
+    /*font*/
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 30px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #090909;
+    margin-right: 20px;
+    text-decoration: none;
+    /*menu*/
+    clear: both;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: #030303 solid 1px;
+    /*display*/
+    display: inline;
+    /**/
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    /* propriedades unicas */
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+header h1{
+    margin: 0%;
+    padding: 0%;
+    padding-top: 30px;
+    float: left;
+}
+header h1 a{
+    display: block;
+    width: 107px;
+    height: 107px;
+    line-height: 28px;
+    text-decoration: none;
+    /* identical to box height */
+    color: #737373;
+    padding-top: 15px;
+    padding-left: 0%;
+    background: url(../Imagens/Trasavelogo.png) no-repeat top left;
+}
+header li{
+    position: absolute;
+    
+    width: 683px;
+    height: 107px;
+    padding-left: 101px;
+    padding-top: 33px;
+}
+
